@@ -23,7 +23,7 @@ class PDFView: UIView {
         let tiledlayer = CATiledLayer(layer: self)
 //        tiledlayer.levelsOfDetail = 1
 //        tiledlayer.levelsOfDetailBias = 1
-        tiledlayer.tileSize = CGSize(width: 1024, height: 1024)
+        tiledlayer.tileSize = CGSize(width: 512, height: 512)
         
         layer.borderWidth = 6
         layer.borderColor = UIColor.lightGray.cgColor
